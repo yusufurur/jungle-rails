@@ -1,2 +1,14 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1> Admin Dashboard </h1>
+
+<div class="panel panel-success">
+  <div class="panel-heading">Total of products: <a href="http://localhost:3000/products"> <%= @product_total %> </a></div>
+</div>
+
+<div class="panel panel-info">
+  <div class="panel-heading" style="weight:500;">Number of categories: <%= @category_total %>
+    (<a href="http://localhost:3000/categories/1"> Apparel </a>,
+    <a href="http://localhost:3000/categories/2"> Electronics </a> & 
+    <a href="http://localhost:3000/categories/3"> Furniture </a>)
+  </div>
+</div>
+
