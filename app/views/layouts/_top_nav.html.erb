@@ -47,6 +47,16 @@
       <ul class="navbar-nav">
       <li><%= link_to 'About Us', "/about", class:"nav-link" %> </li>
         <li class="nav-item dropdown">
+        <li> 
+        <% if current_user %>
+          <li style="padding-top: 15px;padding-bottom: 15px;"> 
+          Signed in as <%= current_user.name %> </li> 
+          <li> <%= link_to "Logout", '/logout' %> </li> 
+        <% else %>
+        <li> <%= link_to 'Login', '/login' %> </li>
+        <li><%= link_to 'Signup', '/signup' %> </li>
+        <% end %>
+      </li>
           <a
             class="nav-link dropdown-toggle text-danger"
             href="#"
