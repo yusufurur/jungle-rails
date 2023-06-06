@@ -4,8 +4,9 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Final Product
 
-!["screenshot for URLs list"](https://github.com/yusufurur/photolabs/blob/main/docs/Screenshot%202023-05-23%20at%201.27.10%20AM.png)
-!["screenshot to createURL"](https://github.com/yusufurur/photolabs/blob/main/docs/Screenshot%202023-05-23%20at%201.27.35%20AM.png)
+!["screenshot for URLs list"](https://github.com/yusufurur/jungle-rails/blob/master/docs/Screenshot%202023-06-06%20at%205.49.50%20PM.png)
+!["screenshot to createURL"](https://github.com/yusufurur/jungle-rails/blob/master/docs/Screenshot%202023-06-06%20at%205.50.14%20PM.png)
+!["screenshot to createURL"](https://github.com/yusufurur/jungle-rails/blob/master/docs/Screenshot%202023-06-06%20at%205.49.13%20PM.png)
 
 ## Setup
 
