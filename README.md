@@ -2,6 +2,11 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Final Product
+
+!["screenshot for URLs list"](https://github.com/yusufurur/photolabs/blob/main/docs/Screenshot%202023-05-23%20at%201.27.10%20AM.png)
+!["screenshot to createURL"](https://github.com/yusufurur/photolabs/blob/main/docs/Screenshot%202023-05-23%20at%201.27.35%20AM.png)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
