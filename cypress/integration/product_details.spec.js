@@ -5,6 +5,6 @@ describe ("Product Details Page", () => {
   
   it("should redirect to product page after clicking on a product", () => {
     cy.get(".products article").first().click();
-    cy.url().should("include", "/product/");
+    cy.url().should("include", "/products/");
   });
 });
